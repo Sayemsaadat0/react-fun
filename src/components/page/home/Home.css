@@ -1,0 +1,68 @@
+
+.container {
+    text-align: center;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+/* From Uiverse.io by barisdogansutcu */ 
+.button {
+    padding: 17px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: rgb(196, 183, 183);
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+  }
+  
+  .button:hover {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+  }
+  
+  .button:active {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+  }
+  
+  
+  .wrongAnswer {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .loveMessage {
+    margin-top: 20px;
+    font-size: 2rem;
+  }
+  
+  .kissesContainer {
+    position: relative;
+    overflow: hidden;
+    /* width: 100vw; */
+    height: 20vh;
+  }
+  
+  .kiss {
+    position: absolute;
+    animation: float 1s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+  }
